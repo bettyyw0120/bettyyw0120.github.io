@@ -1,1 +1,170 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Betty's Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <header id="header">
+    <div>
+      <nav id="navbar" class="main">
+        <ul>
+          <li style="float:left;"><a href="mailto:bettyyw0120@gmail.com" >Email</a></li>
+          <li style="float:left;"><a href="https://www.linkedin.com/in/betty-wu-a4196a20b" target="_blank">LinkedIn</a></li>
+          <li><a href="Resume.pdf" id="resume" class="bordered" target="_blank">Resume</a></li>
+          <li><a href="#projects" id="projectsPage" class="hi">Projects</a></li>
+          <li><a href="#experience" id="experiencePage">Experience</a></li>
+          <li><a href="#aboutme" id="aboutPage">About&nbspme</a></li>
+          <li><a href="#home" id="homePage" class="active">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <div>
+      <section id="home" class="typewriter title main">
+        <h3>Hi, my name is</h3>
+        <h1>Betty Wu</h1>
+        <h2>Student at Stanford</h2>
+        <br />
+        <br />
+        <br />
+        <a class="bordered learnMore fadeIn"href="#aboutme">Learn more</a>
+      </section>
+
+      <section id="aboutme" class="gradientDark">
+        <div id="myStory">
+          <div id="myStoryLeftColumn">
+            <img class="resize" src="images/profile.png">
+          </div>
+          <div id="myStoryRightColumn" class="title">
+            <p>
+            <h3 style="color:white;padding: 0;margin: 0;">This is</h3>
+            <h1 style="color:white;padding: 0;margin: 0;">MY STORY</h1>
+            <br />
+            <br />
+            <br />
+            <p class="bio description main">
+              Hi! I'm Betty Wu and I'm currently a second-year undergraduate student at Stanford majoring in Electrical Engineering and Management Science and Engineering. My ambition is to develop accessible technologies driven by social inclusivity, and am interested in the fields of Human Computer Interaction and of Health Policy Modeling. Currently I'm looking for summer 2024 internship and research opportunity.
+            </p>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="timeline gradientMedium">
+        <div style="margin-top: 35px;" class="experiencePosition title">
+          Research Assistant<br />
+          <span class="experienceDate description">June 2022 - September 2022</span>
+        </div>
+        <div class="timelineLine">
+          <div style="margin-top: 35px;" class="timelinePoint"></div>
+        </div>
+        <div style="margin-top: 35px;" class="timelineEntry main">
+          <span id="experienceLocation" class="title" class="title">Stanford School of Engineering</span><br />
+          <br />
+          <p class="description">
+            > Worked with Prof. Nicholas Bambos and PhD student Ilai Bistritz in learning in networked environments using
+            game theory and distributed control
+            <br /><br />
+            > Studied networks such as social network and epidemics to build algorithms in the structure of resource allocation<br />
+          </p>
+        </div>
+        <div class="experiencePosition title">
+          Product and Strategy Intern<br />
+          <span class="experienceDate description">April 2021 - September 2021</span>
+        </div>
+        <div class="timelineLine">
+          <div class="timelinePoint"></div>
+        </div>
+        <div class="timelineEntry main">
+          <span id="experienceLocation" class="title">OnePlus Technology (Shenzhen) Co., Ltd</span><br />
+          <br />
+          <p class="description">
+            > Cooperated with Product Development and Marketing team in supporting the pre-launch of OnePlus Nord CE
+            & Nord 2; co-led the project initiation of Nord 3 <br /><br />
+            > Conducted market analysis into the Indian and US smartphone market and interviewed 40 Nord 10 users in
+            designing customized sales strategy to international markets <br />
+          </p>
+        </div>
+        <div class="experiencePosition title">
+          Business Strategy and Marketing Intern<br />
+          <span class="experienceDate description">September 2021 - December 2021</span>
+        </div>
+        <div class="timelineLine">
+            <div class="timelinePoint"></div>
+        </div>
+        <div class="timelineEntry main">
+          <span id="experienceLocation" class="title">HUAWEI China</span><br />
+          <br />
+          <p class="description">
+            > Assisted pre-launch marketing, finalized product promo video, contacted 30 influencers <br /><br />
+            > Conducted detailed research about 50 competitor products, designed marketing strategy for camera <br /><br />
+            > Collected users’ reviews and feedbacks from influencers, contacted R&D team for updates and iteration
+            <br />
+          </p>
+        </div>
+        <div class="experiencePosition title">
+          Undergraduate Student<br />
+          <span class="experienceDate description">September 2020 - December 2024</span>
+        </div>
+        <div class="timelineLine">
+          <div class="timelinePoint"></div>
+        </div>
+        <div class="timelineEntry main">
+          <span id="experienceLocation" class="title">Stanford University</span><br />
+          <br />
+          <p class="description">
+            > Davis United World College Scholar; cumulative GPA: 3.99/4.0<br /><br />
+            > Double major in Management Science and Engineering and Electrical Engineering; relevant
+            coursework: MS&E221 Stochastic Modeling, CS161 Design and Analysis of Algorithms,
+            CS107 Computer Organization & System, CS124 Natural Language Processing<br /><br />
+            > Joined Stanford Symphony Orchestra, Women in STEM, Stanford in Government and CS for
+            Social Good Clubs<br />
+          </p>
+      </div>
+        <div class="experiencePosition title">
+            High school student<br />
+            <span class="experienceDate description">August 2018 - May 2020</span>
+        </div>
+        <div class="timelineLine">
+            <div class="timelinePoint"></div>
+        </div>
+        <div class="timelineEntry main">
+          <span id="experienceLocation" class="title">United World College Costa Rica (UWCCR)</span><br />
+          <br />
+          <p class="description">
+            > Conducted monthly Global Affairs, helped to organize guest speaker lectures, which covered topics ranging from immigration, environment, space exploration and economics<br /><br />
+            > Introduced garbage classification on campus as the Student Council member of Environment Department<br />
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="gradientLight">
+        <div class="slideshow">
+          <div id="slide1" class="slide main">
+            <div class="projectRightColumn">
+              <img src="images/PET.png" class="resizeProject">
+            </div>
+            <p class="projectLeftColumn description ">
+              <span class="projectName title"> CS229: Leveraging Deep Learning in Cat Breed Classification</span><br />
+              <span>JAN 2023</span><br />
+              <br>
+              > Studied CNN architectures and machine learning models, designed models of InceptionV3 and of customized DenseNet121 for cat breed classification. <br /><br />
+              > The InceptionV3 model achieves 79% accuracy. I plan to make a website to make the project public. <br /><br />
+            </p>
+          </div>
+        </div>
+        <br>
+        <div>
+          <span id="project1" class="dot activeDot" onclick="showSlide(1)"></span>
+          <span id="project2" class="dot" onclick="showSlide(2)"></span>
+        </div>
+      </section>
+    </div>
+</body>
+
+</html>
